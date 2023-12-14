@@ -1,0 +1,65 @@
+.logo img {
+  max-width: 150px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  padding: 20px 50px;
+}
+
+.header h3 {
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar li {
+  padding: 20px;
+  font-size: 20px;
+}
+.navbar button {
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.navbar input {
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: 700;
+  color: #6a021b;
+}
+@media screen and (max-width: 768px) {
+  a {
+    color: black;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  nav {
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+  }
+
+  nav ul {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
